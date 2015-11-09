@@ -1,0 +1,45 @@
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Ui/etc/ui_configuration.xsd">
+<container name="listing_top">
+        <massaction name="listing_massaction">
+        <action name="changeattributeset">
+                <argument name="data" xsi:type="array">
+                    <item name="config" xsi:type="array">
+                        <item name="type" xsi:type="string">changeattributeset</item>
+                        <item name="label" xsi:type="string" translate="true">Change attribute set</item>
+                    </item>
+                </argument>
+                <argument name="actions" xsi:type="configurableObject">
+                    <argument name="class" xsi:type="string">Ibnab\ChangeAttributeSet\Ui\Component\MassAction\Group\Options</argument>
+                    <argument name="data" xsi:type="array">
+                        <item name="urlPath" xsi:type="string">changeattributeset/product/massChangeattributeset</item>
+                        <item name="paramName" xsi:type="string">changeattributeset</item>
+                        <item name="confirm" xsi:type="array">
+                            <item name="title" xsi:type="string" translate="true">Change attribute set</item>
+                            <item name="message" xsi:type="string" translate="true">Are you sure to assign selected products to new attribute set?</item>
+   <argument name="actions" xsi:type="array">
+                    <item name="0" xsi:type="array">
+                        <item name="type" xsi:type="string">enable</item>
+                        <item name="label" xsi:type="string" translate="true">Enable</item>
+                        <item name="url" xsi:type="url" path="catalog/product/massStatus">
+                            <param name="status">1</param>
+                        </item>
+                    </item>
+                    <item name="1" xsi:type="array">
+                        <item name="type" xsi:type="string">disable</item>
+                        <item name="label" xsi:type="string" translate="true">Disable</item>
+                        <item name="url" xsi:type="url" path="catalog/product/massStatus">
+                            <param name="status">2</param>
+                        </item>
+                    </item>
+                </argument>
+                        </item>
+                    </argument>
+             
+                </argument>
+
+            </action>
+
+        </massaction>
+
+</container>
+</listing>

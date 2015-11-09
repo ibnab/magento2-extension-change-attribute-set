@@ -1,0 +1,9 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <catalog>
+            <configurable_value>
+                <auto_create>1</auto_create>
+            </configurable_value>
+        </catalog>
+    </default>
+</config>
