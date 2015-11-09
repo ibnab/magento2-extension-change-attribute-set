@@ -6,7 +6,7 @@
   * and execute the command php bin/magento setup:upgrade
 
 with composer :
+=======
   * composer require ibnab/magento2-delete-orders:1.0.0
   * enable extension in app/etc/config.php by adding 'Ibnab_ChangeAttributeSet' => 1,
-=======
-# magento2-extension-change-attribute-set
+
