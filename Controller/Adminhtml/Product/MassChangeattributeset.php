@@ -76,7 +76,7 @@ class MassChangeattributeset extends \Magento\Catalog\Controller\Adminhtml\Produ
      *
      * @return \Magento\Backend\Model\View\Result\Redirect
      */
-    public function executeInternal()
+    public function execute()
     {
         $collection = $this->filter->getCollection($this->collectionFactory->create());
         $productIds = $collection->getAllIds();
