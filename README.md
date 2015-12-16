@@ -11,4 +11,4 @@ with composer :
 
 More Free Magento 2 Extensions :
 =======
-http://www.ibnab.com/en/resource
+http://www.ibnab.com/en/resource or http://store.ibnab.com
